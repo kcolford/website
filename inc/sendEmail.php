@@ -1,7 +1,7 @@
 ﻿<?php
 
 // Replace this with your own email address
-$siteOwnersEmail = 'user@website.com';
+$siteOwnersEmail = 'colfordk@gmail.com';
 
 
 if($_POST) {
@@ -67,3 +67,9 @@ if($_POST) {
 }
 
 ?>
+
+<!--
+Local Variables:
+mode: web
+End:
+-->
