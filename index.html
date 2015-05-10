@@ -66,13 +66,13 @@
               me</a>.</h3>
             <hr />
             <ul class="social">
-               <li><a href="https://www.facebook.com/kieran.colford"><i class="fa fa-facebook"></i></a></li>
-               <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
-               <!-- <li><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
-               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-               <!-- <li><a href="#"><i class="fa fa-instagram"></i></a></li> -->
-               <!-- <li><a href="#"><i class="fa fa-dribbble"></i></a></li> -->
-               <!-- <li><a href="#"><i class="fa fa-skype"></i></a></li> -->
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a href="#"><i class="fa fa-skype"></i></a></li>
             </ul>
          </div>
       </div>
@@ -747,7 +747,7 @@
 
          <div class="twelve columns">
 
-            <ul class="social-links">
+            <ul class="social social-links">
                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
@@ -782,6 +782,11 @@
    <script src="js/magnific-popup.js"></script>
    <script src="js/init.js"></script>
 
+   <script type="text/javascript">
+    $(".social a[href=\"#\"]").each(function () {
+      $(this).css("display", "none");
+    });
+   </script>
 </body>
 
 </html>
