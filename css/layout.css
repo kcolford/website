@@ -688,12 +688,8 @@ call-to-action .button {
    line-height: 48px;
    color: #fff
 }
-#quotes blockquote em {
-    font-family: 'librebaskerville-italic', serif;
-    padding: 0;
+#quotes blockquote p span {
     font-size: 28px;
-    line-height: 48px;
-    color: #fff;
 }
 #quotes blockquote cite {
    display: block;
