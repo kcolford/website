@@ -689,7 +689,11 @@ call-to-action .button {
    color: #fff
 }
 #quotes blockquote em {
-    font-size: 30px;
+    font-family: 'librebaskerville-italic', serif;
+    padding: 0;
+    font-size: 28px;
+    line-height: 48px;
+    color: #fff;
 }
 #quotes blockquote cite {
    display: block;
