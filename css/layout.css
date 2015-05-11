@@ -688,6 +688,9 @@ call-to-action .button {
    line-height: 48px;
    color: #fff
 }
+#quotes blockquote em {
+    font-size: 30px;
+}
 #quotes blockquote cite {
    display: block;
    font-size: 12px;
