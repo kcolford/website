@@ -64,7 +64,7 @@ header .banner-text h3 {
 header .banner-text h3 span,
 header .banner-text h3 a {
    color: #F0FFFF;
-   text-shadow: 1px 1px #004040;
+   text-shadow: 1px 1px #404040;
 }
 header .banner-text hr {
    width: 60%;
