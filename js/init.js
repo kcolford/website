@@ -77,6 +77,20 @@ jQuery(document).ready(function($) {
   });
 
 
+  // Enable FlexSlider
+   $('.flexslider').flexslider({
+      namespace: "flex-",
+      controlsContainer: ".flex-container",
+      animation: 'slide',
+      controlNav: true,
+      directionNav: false,
+      smoothHeight: true,
+      slideshowSpeed: 7000,
+      animationSpeed: 600,
+      randomize: false
+   });
+
+
   // Copy social media links to bottom of page.
   $("header .social li").clone().appendTo("#bottom-social");
 
