@@ -77,7 +77,7 @@ jQuery(document).ready(function($) {
 	});
 
    // Copy social media links to bottom of page.
-   $("header .social li").copy().appendTo("#bottom-social");
+   $("header .social li").clone().appendTo("#bottom-social");
 
 });
 
