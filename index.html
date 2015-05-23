@@ -27,9 +27,18 @@
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/media-queries.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
-    <!-- Modernizr Script -->
+    <!-- Javascript -->
     <script src="js/modernizr.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/waypoints.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="js/init.js"></script>
+    <!-- Javascript end -->
 
     <!-- Google Analytics code -->
     <script>
@@ -41,6 +50,7 @@
   ga('create', 'UA-45606820-1', 'auto');
   ga('send', 'pageview');
     </script>
+    <!-- Google Analytics code end -->
 
   </head>
 
@@ -195,7 +205,7 @@
               </p>
 
               <p>Once upon a time in first year university, a young
-                man was so overwhelmed with their new environment that
+                man was so overwhelmed with his new environment that
                 he completely forgot to do course selection.  So he
                 wrote a script that would continually ask the
                 dastardly QUEST system to get him into the courses he
@@ -212,13 +222,45 @@
                 it and forget about it.
               </p>
 
-              <p>To use this script yourself, just visit the homepage
-                for it on GitHub and follow the instructions for
-                installing and using the program.
-              </p>
+              <button class="btn btn-primary" data-toggle="modal"
+                      data-target="#addcourse-usage">
+                How to use me
+              </button>
+              <div id="addcourse-usage" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button class="close" data-dismiss="modal">
+                        &times;
+                      </button>
+                      <h4 class="modal-title">Modal Header</h4>
+                    </div>
 
+                  <div class="modal-body">
+                    <p>To use this script yourself, make sure you have
+                      Python installed.  To install Python, go to the
+                      <a href="//www.python.org/downloads/">Python
+                        dowload page</a> and click on the link that
+                      references Python 2.x.x.  Once you have
+                      installed python, <a href="//github.com/kcolford/uwaterloo-addcourse/archive/master.zip">download
+                        the zip file</a> and double click the file <tt>quickstart.py</tt>.
+                    </p>
+                  </div>
+
+                  <div class="modal-footer">
+                    <button class="btn btn-default" data-dismiss="modal">
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+              
             </div>
           </div>
+
+          <div class="row item">
+            <div class="twelve columns">
+
         </div>
       </div> <!-- Mongoose end  -->
 
@@ -291,15 +333,6 @@
         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
       </div>
     </footer> <!-- Footer end -->
-
-    <!-- Java Script -->
-    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="js/jquery.flexslider.js"></script>
-    <script src="js/waypoints.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/init.js"></script>
-    <!-- Java Script end -->
 
   </body>
 
