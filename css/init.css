@@ -1,6 +1,9 @@
 /* Configuration for main page. */
 
-#projects a.button:hover {
+a.button:hover, a.button:focus {
+        text-decoration: none;
+}
+#projects a.button:hover, #projects a.button:focus {
     color: #fff;
 }
 #about .download             { display: none; }
