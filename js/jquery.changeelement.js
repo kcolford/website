@@ -8,7 +8,7 @@
         var attrs = {};
 
         $.each(this[0].attributes, function(idx, attr) {
-            attrs[attr.nodeName] = attr.nodeValue;
+            attrs[attr.nodeName] = attr.value;
         });
 
         this.replaceWith(function() {
