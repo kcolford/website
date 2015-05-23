@@ -24,7 +24,7 @@ header {
    width: 100%;
    background: #161415 url(../images/header-background.jpg) no-repeat top center;
    background-size: cover !important;
-	-webkit-background-size: cover !important;
+   -webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
 }
@@ -41,7 +41,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -397,7 +397,7 @@ ul#nav li.current a { color: #F06000; }
     margin: 0 6px;
     display: inline-block;
     zoom: 1;
-    *display: inline;
+    display: inline;
 }
 .flex-control-paging li a {
     width: 12px;
