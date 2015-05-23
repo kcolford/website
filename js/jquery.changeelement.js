@@ -12,7 +12,7 @@
           attrs[attr.nodeName] = attr.value;
         });
 
-        this.replaceWith(function() {
+        $(this).replaceWith(function() {
           return $("<" + newType + "/>", attrs).append($(this).contents());
         });
       });
