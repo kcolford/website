@@ -5,14 +5,16 @@
 
 (function($) {
     $.fn.changeElementType = function(newType) {
+      $.each(this, function() {
         var attrs = {};
 
         $.each(this[0].attributes, function(idx, attr) {
-            attrs[attr.nodeName] = attr.value;
+          attrs[attr.nodeName] = attr.value;
         });
 
         this.replaceWith(function() {
-            return $("<" + newType + "/>", attrs).append($(this).contents());
+          return $("<" + newType + "/>", attrs).append($(this).contents());
         });
+      });
     };
 })(jQuery);
