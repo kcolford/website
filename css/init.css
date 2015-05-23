@@ -1,0 +1,9 @@
+/* Configuration for main page. */
+
+#projects a.button:hover {
+    color: #fff;
+}
+#about .download             { display: none; }
+#about #personal-description { display: none; }
+.fa-facebook-logo:before      { content: "\f09a"; }
+.fa-linkedin-logo:before      { content: "\f0e1"; }
