@@ -801,6 +801,9 @@ input[type="checkbox"] { display: inline; }
     text-align: center !important;
 }
 
-
-
-
+pre, code {
+    display: block;
+    color: #333;
+    border: 1px solid #CCC;
+    background-color: #F5F5F5;
+}
