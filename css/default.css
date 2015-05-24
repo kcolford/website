@@ -806,7 +806,7 @@ input[type="checkbox"] { display: inline; }
     text-align: center !important;
 }
 
-pre, code {
+pre {
     display: block;
     color: #333;
     border: 1px solid #CCC;
