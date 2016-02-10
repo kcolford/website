@@ -1,3 +1,3 @@
 [submodule "uwaterloo-addcourse"]
 	path = uwaterloo-addcourse
-	url = https://github.com/kcolford/uwaterloo-addcourse.git
+	url = git@kcolford.com:uwaterloo-addcourse.git
