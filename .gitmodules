@@ -1,6 +1,0 @@
-[submodule "uwaterloo-addcourse"]
-	path = uwaterloo-addcourse
-	url = git@kcolford.com:uwaterloo-addcourse.git
-[submodule "resume"]
-	path = resume
-	url = git@kcolford.com:resume.git
