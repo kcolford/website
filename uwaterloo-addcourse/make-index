@@ -1,0 +1,5 @@
+#!/bin/sh
+
+rst2html.py                                     \
+    --template=index-template.html              \
+    README.rst index.html
