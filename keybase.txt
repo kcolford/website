@@ -1,0 +1,66 @@
+==================================================================
+https://keybase.io/kcolford
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.kcolford.com
+  * I am kcolford (https://keybase.io/kcolford) on keybase.
+  * I have a public key with fingerprint 7D8E 09EB 67BA 4BE9 6196  523C 7468 564D A7B0 03F8
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010194be523b4add0e31e5555fd62f3e061ee792ac5c7b706d125378d391e5e5d5bc0a",
+            "fingerprint": "7d8e09eb67ba4be96196523c7468564da7b003f8",
+            "host": "keybase.io",
+            "key_id": "7468564da7b003f8",
+            "kid": "010194be523b4add0e31e5555fd62f3e061ee792ac5c7b706d125378d391e5e5d5bc0a",
+            "uid": "4623de29258f567fb414675dc5375c19",
+            "username": "kcolford"
+        },
+        "service": {
+            "hostname": "www.kcolford.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1477933235,
+    "expire_in": 157680000,
+    "prev": "716b96aa117982749f6b08f62554bec53b3cfa5df194826015ceed8c722a37c2",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUu9LFEEYPvMyPYuiIqHMYhHySo/9NTO7R/QHGCZFVIR57ezMnkt6e+2enmXW
+lRkUaUJhQqT9oIJ+wFFp9SGCgiyCikokKIQIykwzy6w0a/bIb31svgzzzvM87/M+
+vC2z0j2Zaa9HT717cn54YdqjfuzZlFN7s47DFtnBBeu4bTR10UpCnVhom0m4IMcL
+vKDKmAJRwrJGCE8lgQJ2DAJFQ6I8FChFqqjpQEcY8ZAIIpCQQiSV4SggAOu8xhVy
+hhkJUztqm5EYk0VEobxKMURYY+oqFFTIWuhIhgqAMtEQ5nnJUBixwnJcBjOHNYcG
+TIvV2COUsvcP/H/2XZ2Sk6EoESqqIlAMAJGBZUGGCBCdcYAuqC7QoXZEq6KuV92q
+NCybcPWFHKvWmDp1g3Un+YuIx+OBKVRAt6oYP2pbMYuV2G9FLBZ1gi47tiOaglMc
++isUwmaEsCwZo4bajmlFuKDAkHrMdJUFGSFVkkQJFHK0NmraNGS6CICgwrPj9qE1
+bnICLMMq1DRBQKoiIlk1IOYVA4oAsNzYYFjSDQ0Qg+WoiJAXgE4pUXQkipqEdJFz
+Z9sesbigxHxqYabpmOGIFqu2KVfvO5iW6/WkZXoypk9zt8zjy5oztXprEpmeN77N
++V2l/t++rmDeCG54eizu6fH+OOB420+vbOKrZx8+lz5vaKx89dWcZHtz3ZKxX3k9
+hzJ6g8V7Lu96N+vZtN6BqtILBa0tZX5toqT1xNfy4j23tjwoHk8UwCtPOlpq1y39
+KNsLxtXxt5/l+i9L19ztmyy6M6GODbxc/ND0Z++fWVk0dxFoKrvUfbT2rNVhLSPg
+Relo+cqhDXL3yzoyWXGvkTtyMXcwkQwXPtv6cwZKfOiff+N7X3dzxvXd89rafI2f
+xtbf79nb+zhxM75k5+2sazeSnZOeVcv9+7LfDyabH5G856H84yc7X42/yUof7guc
+2di29kF+0f1vJSMrGryw9Q8=
+=8VEG
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kcolford
+
+==================================================================
