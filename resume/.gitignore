@@ -1,9 +1,0 @@
-*.out
-*.pdf
-auto/
-*.fls
-*.aux
-*.bbl
-*.blg
-*.fdb_latexmk
-*.log
